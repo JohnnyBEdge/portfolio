@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+body {
+    width: 80%;
+    margin: 5% auto;
+}
+
+header {
+    display: grid;
+    grid-template: 2fr /20% 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#contact {
+    grid-column-start: 2
+}
+
+/* main {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+} */
+
+#skills {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#skills h1 {
+    grid-row-start: 2;
+}
+
+#work_history {
+    display: grid;
+    grid-template: 2fr/20% 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.job {
+    grid-column-start: 2;
+}
+
+#education {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#education img {
+    grid-column-start: 2;
+}
+
+#hobbies {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+}

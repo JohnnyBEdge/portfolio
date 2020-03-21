@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed&display=swap" rel="stylesheet">
     <title>Portfolio-HTML</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <div id="logo">JM</div>
+            <div id="logo">
+                <p>JM</p>
+            </div>
             <div id="header_title">
                 <h1>John Martin</h1>
             </div>
             <div id="contact">
                 <p>jrmartin182@gmail.com</p>
-                <p>239.503.6978</p>
+                <p style="margin-right: 100px">239.503.6978</p>
             </div>
+
         </header>
 
         <main>
             <div id="summary">
-                <p>This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. </p>
+                <p>This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. This is my professional summary. </p>
             </div>
+
            <div id="skills">
                <h3>Skills</h3>
                <ul id="skills_left">
@@ -43,17 +48,22 @@
                <h3>Work History</h3>
                <div class="job">
                    <h4>Backcountry.com</h4>
-                   <p class="position">Supervisor</p>
-                   <p> Salt Lake City, UT</p>
-                   <p>2015-2020</p>
+                   <div class="job-subtitle">
+                        <p class="position">Supervisor</p>
+                        <p> Salt Lake City, UT</p>
+                        <p>2015-2020</p>
+                   </div>
+
                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, fugiat sequi? Iste sapiente quas voluptatum natus quidem voluptates molestias veritatis assumenda esse ea possimus, hic libero deserunt repudiandae neque ad!
                    </p>
                </div>
                <div class="job">
                     <h4>Wellspring International School</h4>
-                    <p class="position">Teacher</p>
-                    <p> Hanoi, Vietnam</p>
-                    <p>2013-2014</p>
+                    <div class="job-subtitle">
+                        <p class="position">Teacher</p>
+                        <p> Hanoi, Vietnam</p>
+                        <p>2013-2014</p>
+                    </div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, fugiat sequi? Iste sapiente quas voluptatum natus quidem voluptates molestias veritatis assumenda esse ea possimus, hic libero deserunt repudiandae neque ad!
                     </p>
                </div>
@@ -61,8 +71,8 @@
 
            <div id="education">
                <h3>Education</h3>
+               <img src="ucf-logo.jpg" alt="University of Central Florida logo" id="ucf_logo">
                <div id="university">
-                   <img src="" alt="University of Central Florida logo">
                    <h4>University of Central Florida</h4>
                    <p>B.S. Health Sciences </p>
                    <p>2010-2012</p>

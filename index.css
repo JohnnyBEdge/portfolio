@@ -56,7 +56,36 @@
 
 #about_me {
     grid-area: about;
-    background-color: green;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#about_me h2{
+    font-size: 40px;
+    align-self: center;
+    margin: 10px;
+}
+
+#summary {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#summary p {
+    font-size: 20px;
+    font-style: italic;
+    color: grey;
+    font-weight: lighter;
+}
+
+#profile_container {
+    width: 200px;
+    height: 250px;
+    background-color: wheat;
+    border-radius: 50%;
+    align-self: center;
 }
 
 #projects {
